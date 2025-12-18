@@ -126,20 +126,7 @@ Each season must be completed to unlock the next, with progressively larger grid
 3. Choose between "Mind Match" and "Hawkins Sweep" games
 4. Enjoy the Stranger Things gaming experience!
 
-## Browser Compatibility
-
-These games work in all modern browsers that support:
-- HTML5
-- CSS3
-- JavaScript ES6+
-- Web Audio API (for sound effects)
-
-Tested in:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## Credits
 
 This fan-made game collection is inspired by the Netflix series "Stranger Things" created by The Duffer Brothers. All character images and intellectual property belong to their respective owners.
+- Hawkins Hackers
