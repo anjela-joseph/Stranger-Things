@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things: Upside Down Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Stranger Things: Upside Down Escape</h1>
+            <div class="level-indicator">
+                <span>Season <span id="season-number">1</span> - Hawkins Lab (3x3)</span>
+            </div>
+            <div class="survival-meter">
+                <span>Escape Progress: </span>
+                <div class="meter-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <span id="progress-text">0%</span>
+            </div>
+            <div class="messages" id="message">Welcome to Hawkins Lab! Eleven's powers are at full strength...</div>
+        </header>
+        <a class="back-menu" href="../../index.html">← MENU</a>
+        <main>
+            <div class="grid-container" id="grid"></div>
+        </main>
+        
+        <footer>
+            <div class="controls">
+                <button id="restart-btn">Restart Game</button>
+                <button id="clue-btn">Eleven's Powers (2 left)</button>
+            </div>
+            
+            <div class="rules-section">
+                <h3>Stranger Things Rules</h3>
+                <ul class="rules-list">
+                    <li>Survive all 4 seasons of the Upside Down</li>
+                    <li>Season 1: 3×3 grid, find 3 safe zones</li>
+                    <li>Season 2: 4×4 grid, find 4 safe zones</li>
+                    <li>Season 3: 5×5 grid, find 5 safe zones</li>
+                    <li>Season 4: 6×6 grid, find 5 safe zones</li>
+                    <li>Avoid <span class="deadly-rule">Demogorgons (☠️)</span> or face instant death</li>
+                    <li>Seek <span class="safe-rule">Christmas Lights (🛡️)</span> for protection</li>
+                    <li>Expose <span class="fake-rule">Fake Safe Zones (💀)</span> in later seasons</li>
+                    <li>Use <span class="portal-rule">Portals (🌀)</span> to travel to safer areas</li>
+                    <li>Activate <span class="power-rule">Psychic Powers (⚡)</span> to sense nearby safety</li>
+                    <li>Clicking safe zones reveals shield and adjacent danger count</li>
+                </ul>
+            </div>
+            <
+
+            <div class="hints-section">
+                <h3>Eleven's Psychic Powers</h3>
+                <ul class="hints-list">
+                    <li><strong>Remote Viewing</strong>: Reveals safe zones with 💡 markers</li>
+                    <li><strong>Nosebleed Focus</strong>: Reveals danger zones with ✝ markers (costs health)</li>
+                    <li><strong>Telekinetic Pulse</strong>: Removes one random deadly tile (Season 4 only)</li>
+                </ul>
+            </div>
+            
+            <div class="instructions">
+                <p>Navigate the dark realm of the Upside Down. Every step could be your last!</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
